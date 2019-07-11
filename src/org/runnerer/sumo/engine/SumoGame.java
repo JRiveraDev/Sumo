@@ -29,6 +29,7 @@ public class SumoGame extends Game
         getGameConfig().blockBreak = false;
         getGameConfig().damageEvP = false;
         getGameConfig().damageOther = false;
+        getGameConfig().damage = true;
     }
 
     @Override
